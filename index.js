@@ -2,7 +2,7 @@ const PORT = process.env.PORT || 8800; // Use the port provided by the environme
 
 const io = require("socket.io")(PORT, {
   cors: {
-    origin: ["http://localhost:3000", "https://spinsnowapp.web.app/"]
+    origin: ["http://localhost:3000", "https://spinsnowapp.web.app"]
   }
 });
 
